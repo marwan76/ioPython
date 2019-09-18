@@ -8,11 +8,7 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.abspath(__file__)))
 REPO_ROOT = os.path.realpath(os.path.join(SCRIPT_DIR, "..", ".."))
 sys.path.insert(1, REPO_ROOT)
 
-<<<<<<< HEAD
-PACKAGE = os.path.join(REPO_ROOT, "jenkins_pylint\\src")
-=======
 PACKAGE = os.path.join(REPO_ROOT, "src")
->>>>>>> 7805f51e68c34e68d49218449f7aa51fce54cc36
 
 #   config_file = os.path.realpath(os.path.join(REPO_ROOT, "cfg", "pylintrules.cfg"))
 """ Function where to find configuration file and the source files to run pylint on"""
